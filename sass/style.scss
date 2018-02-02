@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: #404040;
+
+  h1 {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3.0vh;
+  }
+
+  h3 {
+    font-size: 3.0vh;
+  }
+
+  p {
+    font-size: 1,5vmin;
+  }
+}
+
+.page-header {
+  background-color: #fefbd8;
+  margin: 0;
+  padding: 20px;
+}
+
+.jumbotron {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #d5f4e6;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+.btn {
+  margin: auto;
+}
+/* Adds borders for tabs */
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
+
+.carousel-inner img {
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 80%;
+  height: 100%;
+}
+//1200x480
